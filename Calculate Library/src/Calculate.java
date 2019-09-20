@@ -58,5 +58,74 @@ public class Calculate {
 		return(number % factor == 0);
 	}
 	
+	public static double absValue(double number) { //returns the absolute value of the number that you input accepts them and returns a double.
+		if(number >= 00 ) {
+			return(number);
+		} else {
+			return (number / -1);
+		}
+	}
 	
-}
+	public static double max(double number1, double number2) {
+		if(number1 > number2) {
+			return(number1); }
+		if(number2 > number1) {
+			return(number2);
+		}
+	return(number1); 
+	}
+	
+	public static double max(double number1, double number2, double number3) {
+		if(number1 > number2) {
+		if(number1 > number3) {
+			return(number1); 
+			}
+		if(number2 > number1) {
+		if(number2 > number3) {
+			return(number2); 
+		}
+		if(number3 > number1) {
+		if(number3 > number2) {
+			return(number3);
+		}
+		}
+		}
+		}
+		return(number1);
+	}
+	
+	public static int min(int number1, int number2) {
+		if(number1 < number2) {
+			return(number1);
+		}
+		if(number2 < number1) {
+			return(number2);
+		}
+		return(number1);
+	}
+
+	public static double round2(double number) {
+		
+	}
+	
+	public static double exponent(double base, int power) {
+		}
+	
+	public static int factorial(int number) {
+		while(number > 0) {
+			return(number * (number - 1));
+		}
+		return(1);
+	}
+	
+	public static boolean isPrime(int number) {
+		int factor = 2;
+		if(isDivisibleBy(number, factor) == false) {
+			factor++;
+			return(true);
+		} else {
+			return (false);
+		}
+	}
+		}
+	
