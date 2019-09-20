@@ -104,12 +104,9 @@ public class Calculate {
 		return(number1);
 	}
 
-	public static double round2(double number) {
-		
-	}
+
 	
-	public static double exponent(double base, int power) {
-		}
+
 	
 	public static int factorial(int number) {
 		while(number > 0) {
