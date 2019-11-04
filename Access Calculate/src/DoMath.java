@@ -9,5 +9,6 @@ public class DoMath {
 		System.out.println(Calculate.toImproperFrac(10, 1, 5));
 		System.out.println(Calculate.toMixedNum(7, 2));
 		System.out.println(Calculate.foil(7, 2, 5, 1, "x"));
+		System.out.println(Calculate.gcf(2,10));
 	}
 }
